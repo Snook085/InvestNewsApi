@@ -1,6 +1,7 @@
 import puppeteer from "puppeteer"
 import fs from 'node:fs'
 
+
 const url = 'https://br.investing.com/crypto/bitcoin/news'
 
 
@@ -14,7 +15,7 @@ async function main(){
     const posts = await page.evaluate(() => {
         const posts =  Array.from(document.querySelectorAll('[data-test="article-title-link"]'))
 
-        const data = posts.map(post => ({title:post.textContent,url:post.href}))
+        const data = posts.map(post => ({id:Math.floor(Math.random()*9999),title:post.textContent,url:post.href}))
 
         return data
     })
