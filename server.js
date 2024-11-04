@@ -1,10 +1,12 @@
 import express from 'express';
 import fs from 'node:fs/promises';
 import cors from 'cors';
+import main from './Bitcoins.js';
+
 
 const server = express();
 const noticiasBitcoins = [];
-
+let intervalID;
 async function puxaDados() {
     try {
         const data = await fs.readFile('./Bitcoins.json', 'utf-8');
@@ -18,6 +20,15 @@ async function puxaDados() {
     }
 }
 
+const startScraping = () => {
+    if(!intervalID){
+        intervalID = setInterval(() => {
+            main()
+        },600000)
+    }
+}
+
+startScraping()
 
 puxaDados().then(() => {
     server.use(express.json());
