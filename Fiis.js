@@ -1,9 +1,9 @@
 import puppeteer from "puppeteer";
 import fs from 'node:fs';
 
-const url = 'https://br.cointelegraph.com/tags/bitcoin';
+const url = 'https://fiis.com.br/noticias/page/2/';
 
-async function main() {
+async function Fiis() {
     const browser = await puppeteer.launch({ headless: false });
     const page = await browser.newPage();
     
@@ -13,7 +13,7 @@ async function main() {
         return new Promise(resolve => setTimeout(resolve, ms));
     }
 
-    await waitForTimeout(7000)
+    await waitForTimeout(4000)
     async function scrollToBottom() {
         let previousHeight = 0;
         let currentHeight = 0;
@@ -24,7 +24,7 @@ async function main() {
             previousHeight = currentHeight;
     
            
-            await page.evaluate(() => window.scrollBy(0, 500));
+            await page.evaluate(() => window.scrollBy(0, 800));
     
             
             await waitForTimeout(500);
@@ -51,35 +51,28 @@ async function main() {
 
     
     
-    await page.waitForSelector('.lazy-image img', { timeout: 5000 });
+    await page.waitForSelector('.loopNoticias', { timeout: 5000 });
 
     const posts = await page.evaluate(() => {
-        const posts = Array.from(document.querySelectorAll('[data-testid="posts-listing__item"]'));
+        const posts = Array.from(document.querySelectorAll('.loopNoticias'));
         
         return posts.map(post => {
-            const coverDiv = post.querySelector('.post-card-inline__cover');
+            const coverDiv = post.querySelector('img');
 
             
-            const link = post.querySelector('.post-card-inline__figure-link') || null
-            const divCardcontent =  post.querySelector('.post-card-inline__content')
+            const link = post.querySelector('a') || null
+            const divCardcontent =  post.querySelector('.loopNoticias__content')
 
-            const divHeardeCard = divCardcontent ? divCardcontent.querySelector('.post-card-inline__header'):null
+
+            const title = divCardcontent ? divCardcontent.querySelector('h3'):null
 
             
-
-            const paragraph = divCardcontent ? divCardcontent.querySelector('.post-card-inline__text'):null
-
-
-            const title = divHeardeCard ? divHeardeCard.querySelector('.post-card-inline__title'):null
-
-            const imgElement = coverDiv ? coverDiv.querySelector('img') : null;
-            const imgLink = imgElement ? imgElement.src : null;
+            const imgLink = coverDiv ? coverDiv.src : null;
 
             return {
-                id:Math.floor(Math.random() * 99999),
+                id: Math.floor(Math.random() * 99999),
                 title: title.innerHTML,
                 img: imgLink,
-                desc:paragraph.innerHTML,
                 link:link.href
             };
         });
@@ -88,7 +81,7 @@ async function main() {
     
     async function salvadados(data) {
         const convert = JSON.stringify(data, null, 2);
-        fs.writeFileSync('./Bitcoins.json', convert);
+        fs.writeFileSync('./Fiis.json', convert);
     }
     
     console.log(posts)
@@ -98,6 +91,6 @@ async function main() {
     await browser.close();
 }
 
-main();
+Fiis();
 
-export default main;
+export default Fiis;
