@@ -1,8 +1,8 @@
 import express from 'express';
 import fs from 'node:fs/promises';
 import cors from 'cors';
-import main from './Bitcoins.js';
-import Fiis from './Fiis.js';
+import main from '../Bitcoins.js';
+import Fiis from '../Fiis.js';
 
 const server = express();
 const noticiasBitcoins = [];
