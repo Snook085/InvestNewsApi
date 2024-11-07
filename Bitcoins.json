@@ -1,107 +1,317 @@
 [
   {
-    "id": 62230,
+    "id": 24932,
+    "title": " Mark Uyeda, da SEC, tem uma grande chance de se tornar o próximo presidente, aponta advogado ",
+    "img": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=370/https://s3.cointelegraph.com/uploads/2024-11/0193059d-75c0-73f3-9af4-35164a9a1174",
+    "desc": "É improvável que a “Crypto Mom” Hester Peirce da SEC substitua Gary Gensler como o novo presidente, disse o advogado de cripto Jake Chervinsky.",
+    "link": "https://br.cointelegraph.com/news/sec-mark-uyeda-high-chance-next-sec-chairman"
+  },
+  {
+    "id": 2664,
+    "title": " Métricas de preço do Bitcoin se alinham para projetar mais vantagem para o BTC ",
+    "img": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=370/https://s3.cointelegraph.com/uploads/2024-11/01930321-3768-7583-ada8-392bdd27ee06",
+    "desc": "As opções de Bitcoin e os mercados futuros mostram otimismo moderado após uma nova alta de todos os tempos do BTC, o que pode ser indicativo de novas altas de preços.",
+    "link": "https://br.cointelegraph.com/news/bitcoin-price-metrics-align-to-project-further-upside-for-btc"
+  },
+  {
+    "id": 22196,
+    "title": " ETF de Bitcoin BlackRock vê o 'dia de maior volume de todos os tempos' com US$ 4,1 bilhões negociados ",
+    "img": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=370/https://s3.cointelegraph.com/uploads/2024-11/019303e1-ebae-7c86-9553-107c070d3ec7",
+    "desc": "O BlackRock Bitcoin ETF teve seu maior dia de atividade comercial após a reeleição de Donald Trump como presidente dos Estados Unidos.",
+    "link": "https://br.cointelegraph.com/news/blackrock-bitcoin-etf-sees-biggest-volume-day-ever-4-1-billion-traded"
+  },
+  {
+    "id": 23660,
+    "title": " Bitcoin ganhou 1.900% no primeiro mandato de Trump: o preço do BTC atingirá US$ 1 milhão desta vez? ",
+    "img": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=370/https://s3.cointelegraph.com/uploads/2024-11/019300b1-1086-7d8c-8aeb-d7754cbc958b",
+    "desc": "O Bitcoin poderia superar US$ 1 milhão por moeda durante o segundo mandato de Trump, de acordo com dados históricos de preços.",
+    "link": "https://br.cointelegraph.com/news/bitcoin-gained-1-900-in-trump-s-first-term-will-btc-price-hit-1-m-this-time"
+  },
+  {
+    "id": 7638,
+    "title": " Preço do Bitcoin hoje 07/11/2024: BTC busca tornar US$ 75 mil suporte em busca de novo recorde em US$ 80 mil ",
+    "img": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=370/https://s3.cointelegraph.com/storage/uploads/view/2931e6b1a16af1bdc3051754a4a479e6.jpg",
+    "desc": "Os touros estão em busca de tornar US$ 75 mil como novo suporte para então buscar uma quebra dos níveis de US$ 76 mil e US$ 80 mil.",
+    "link": "https://br.cointelegraph.com/news/bitcoin-price-today-11-07-2024-btc-seeks-to-become-75-000-support-in-search-of-new-record-at-80-000"
+  },
+  {
+    "id": 76407,
+    "title": " Receita Federal abre espaço para ABCripto e entidades questionarem impostos para Bitcoin e mercado cripto ",
+    "img": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=370/https://s3.cointelegraph.com/storage/uploads/view/2007d0f83935c3c02b5d26be59a1af19.jpg",
+    "desc": "A iniciativa tem como objetivo estreitar o relacionamento entre a Receita Federal e essas instituições, promovendo um espaço de diálogo direto.",
+    "link": "https://br.cointelegraph.com/news/federal-revenue-opens-space-for-abcripto-and-entities-to-question-taxes-on-bitcoin-and-the-crypto-market"
+  },
+  {
+    "id": 16675,
+    "title": " O cenário perfeito para o mundo cripto: 15 especialistas avaliam o que será do Bitcoin após a vitória de Trump ",
+    "img": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=370/https://s3.cointelegraph.com/storage/uploads/view/c5b3359e1e95f42e54f29db3dc9c2a91.jpg",
+    "desc": "Para entender as diferentes visões e expectativas para o mercado cripto neste noveo cenário, o Cointelegraph ouviu 15 especialistas de grandes empresas do mercado.",
+    "link": "https://br.cointelegraph.com/news/the-perfect-scenario-for-the-crypto-world-15-experts-assess-what-will-happen-to-bitcoin-with-trumps-victory"
+  },
+  {
+    "id": 261,
+    "title": " Legislador dos EUA reforça promessas relacionadas a criptomoedas após vitória de Trump ",
+    "img": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=370/https://s3.cointelegraph.com/uploads/2024-11/019302dc-858d-7526-b83f-0dddccd7e80f",
+    "desc": "Com os republicanos prestes a conquistar a maioria no Senado dos EUA, Cynthia Lummis afirmou que planeja fazer com que os legisladores aprovem um projeto de lei para \"estabelecer uma reserva estratégica de Bitcoin\".",
+    "link": "https://br.cointelegraph.com/news/cynthia-lummis-donald-trump-bitcoin-reserve"
+  },
+  {
+    "id": 31928,
+    "title": " Baleias de Bitcoin acumulam US$ 132 milhões em meio a projeções de vitória de Trump ",
+    "img": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=370/https://s3.cointelegraph.com/uploads/2024-11/019300bc-bc69-7cc5-9a79-31f1147ef376",
+    "desc": "O apetite dos investidores por ativos de risco, como o Bitcoin, está crescendo, com projeções de Donald Trump como vencedor da eleição presidencial nos EUA.",
+    "link": "https://br.cointelegraph.com/news/bitcoin-whales-accumulate-132m-amid-trump-victory-projections"
+  },
+  {
+    "id": 62268,
+    "title": " ETF de Bitcoin da BlackRock registra US$ 1 bilhão em volume nos primeiros minutos de negociação pós-eleição ",
+    "img": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=370/https://s3.cointelegraph.com/uploads/2024-11/01930293-2ae3-707c-bcbb-c2b0dd9ef32b",
+    "desc": "Alguns analistas esperam que o preço do Bitcoin dispare após a vitória de Donald Trump nas eleições de 5 de novembro.",
+    "link": "https://br.cointelegraph.com/news/blackrock-bitcoin-etf-sees-1-b-in-volume-in-first-minutes-of-post-election-trading"
+  },
+  {
+    "id": 17203,
+    "title": " Analista prevê rali do Bitcoin para US$ 110 mil com prêmio positivo na Coinbase e vitória de Trump ",
+    "img": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=370/https://s3.cointelegraph.com/uploads/2024-11/01930177-736d-706b-9c37-9b9b66f04fee",
+    "desc": "Um aumento nos volumes spot de Bitcoin e um padrão clássico de gráfico sugerem que US$ 110.000 pode ser o próximo alvo para o preço do BTC.",
+    "link": "https://br.cointelegraph.com/news/bitcoin-price-rally-to-110-k-incoming-after-positive-coinbase-premium-trump-victory-analyst"
+  },
+  {
+    "id": 83009,
+    "title": " Análise de preço em 06/11: BTC, ETH, SOL, BNB, XRP, DOGE, TON, ADA, SHIB, AVAX ",
+    "img": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=370/https://s3.cointelegraph.com/uploads/2024-11/01930223-e1b8-7df1-8d7c-f2b48739e44a",
+    "desc": "Os mercados de criptomoedas reagiram à vitória de Donald Trump levando o Bitcoin a uma nova máxima histórica acima de US$ 75.000, sinalizando o início da próxima etapa da tendência de alta.",
+    "link": "https://br.cointelegraph.com/news/price-analysis-11-6-btc-eth-sol-bnb-xrp-doge-ton-ada-shib-avax"
+  },
+  {
+    "id": 19321,
+    "title": " Maioria republicana no Senado indica um Congresso mais 'pró-cripto' ",
+    "img": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=370/https://s3.cointelegraph.com/uploads/2024-11/0193017e-8a49-75ee-bc1b-2420e408e340",
+    "desc": "Um Senado liderado pelos republicanos está preparado para aprovar regulamentações mais claras para o setor cripto, sinalizando uma mudança para políticas mais favoráveis à indústria nos EUA.",
+    "link": "https://br.cointelegraph.com/news/republicans-majority-control-us-senate-pro-crypto-congress"
+  },
+  {
+    "id": 48629,
+    "title": " Vitória de Trump: Indústria cripto dos EUA espera por clareza e sucesso ",
+    "img": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=370/https://s3.cointelegraph.com/uploads/2024-11/0192fc67-c164-797a-86fc-d5e85a2558c2",
+    "desc": "A projeção é que Donald Trump vença a eleição presidencial dos EUA, prometendo promover as criptomoedas no país.",
+    "link": "https://br.cointelegraph.com/news/trump-election-us-crypto-industry"
+  },
+  {
+    "id": 90457,
     "title": " Bitcoin vai para a lua — Observe a esses níveis de preços do BTC a partir de US$ 75 mil ",
     "img": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=370/https://s3.cointelegraph.com/uploads/2024-11/01930033-9fe1-7bd2-affb-f073d7c60f2a",
     "desc": "Analistas do Bitcoin procuram zonas de suporte de diretrizes em meio à forte volatilidade do preço do BTC eleitoral.",
     "link": "https://br.cointelegraph.com/news/bitcoin-to-the-moon-btc-price-levels-next-75k"
   },
   {
-    "id": 99326,
+    "id": 58290,
     "title": " Principal baleia do Polymarket lucra US$ 20 milhões com a vitória de Trump ",
     "img": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=370/https://s3.cointelegraph.com/uploads/2024-11/01930101-9ff4-76ad-8506-7284adb465b1",
     "desc": "Os cinco maiores apostadores de Trump poderiam ganhar um lucro combinado de US$ 81 milhões.",
     "link": "https://br.cointelegraph.com/news/top-polymarket-whale-profits-20-m-trump-victory"
   },
   {
-    "id": 75625,
+    "id": 15890,
     "title": " Vendedores de Bitcoin 'estão sendo rekt' após nova máxima de US$ 75 mil ",
     "img": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=370/https://s3.cointelegraph.com/uploads/2024-11/0192ffa9-c98d-7ba9-b966-db0616122c0f",
     "desc": "Quase US$ 180 milhões em posições vendidas no Bitcoin foram eliminadas quando atingiu uma máxima, com um analista dizendo que é “significativo” que seja impulsionado pela demanda à vista.",
     "link": "https://br.cointelegraph.com/news/bitcoin-short-positions-liquidated-btc-all-time-high-75k-crypto-analysts"
   },
   {
-    "id": 16071,
+    "id": 83853,
     "title": " Comunidade cripto comemora a vitória eleitoral de Trump ",
     "img": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=370/https://s3.cointelegraph.com/uploads/2024-11/019300ae-7f20-7917-af0d-f30024180d84",
     "desc": "Donald Trump nem sempre foi um fã de criptomoedas, mas a comunidade se reuniu em torno dele como candidato pró-cripto nas eleições presidenciais de 2024 nos EUA.",
     "link": "https://br.cointelegraph.com/news/trump-declares-victory-crypto-community"
   },
   {
-    "id": 35275,
+    "id": 43127,
     "title": " Preço do Bitcoin hoje 06/11/2024: BTC sobe mais de R$ 42 mil em menos de 24h e bate novo recorde histórico em US$ 75.300 ",
     "img": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=370/https://s3.cointelegraph.com/storage/uploads/view/a72fe9390521c216c3f300cd0df21d84.jpg",
     "desc": "O BTC subiu mais de R$ 42 mil nas últimas 24h, impulsionado pelo otimismo dos investidores com a vitória de Donald Trump nos EUA",
     "link": "https://br.cointelegraph.com/news/bitcoin-price-today-11-06-2024-btc-breaks-historic-record-rises-more-than-10-and-traders-now-target-us78-000"
   },
   {
-    "id": 81892,
+    "id": 61779,
     "title": " Trump ou Kamala: 5 analistas avaliam se o preço do Bitcoin vai subir 20% ou cair para US$ 65 mil com o resultado da eleição ",
     "img": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=370/https://s3.cointelegraph.com/storage/uploads/view/53f2cd737e6b600a81a001908a033893.jpg",
     "desc": "Agora, os candidatos Donald Trump e Kamala Harris, assim como todo o mundo (em especial o mercado cripto) aguardam a divulgação dos resultados da eleição americana.",
     "link": "https://br.cointelegraph.com/news/trump-or-kamala-5-analysts-assess-where-the-price-of-bitcoin-will-go-on-wednesday-with-the-release-of-the-us-election-results"
   },
   {
-    "id": 64416,
+    "id": 83764,
     "title": " Notícias Cripto: Satsconf 2024, Filme GOD BLESS BITCOIN, usuários viram validadores de cannabis e outras novidades ",
     "img": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=370/https://s3.cointelegraph.com/storage/uploads/view/d774abac21df9f0a925a6cdf6a5d2c19.jpg",
     "desc": "O mercado de criptomoedas no Brasil está com diversas novidades nesta semana decisiva de novembro.",
     "link": "https://br.cointelegraph.com/news/crypto-news-god-bless-bitcoin-film-users-see-cannabis-validators-various-crypto-events-and-other-news"
   },
   {
-    "id": 57485,
+    "id": 90431,
     "title": " Bitget quer crescer mais no Brasil e prepara novidades para os traders do país ",
     "img": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=370/https://s3.cointelegraph.com/storage/uploads/view/7b90c81ef408158ba49865064316a7ba.jpg",
     "desc": "&nbsp;A Bitget revelou ao Cointelegraph Brasil que pretende aumentar sua participação no mercado de criptomoedas no Brasil e na América Latina",
     "link": "https://br.cointelegraph.com/news/bitget-wants-to-grow-more-in-brazil-and-prepares-news-for-traders-in-the-country"
   },
   {
-    "id": 89743,
+    "id": 17414,
     "title": " Moeda comum, criptomoedas e blockchain são ignorados na estratégia do BRICS para desafiar o dólar ",
     "img": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=370/https://s3.cointelegraph.com/storage/uploads/view/0194bb3bcf732e03d2af5468a2043801.jpg",
     "desc": "Declaração de Kazan reafirmou a necessidade de reformar a arquitetura financeira global, mas não recomenda a adoção de uma moeda digital comum dos BRICS ou de criptomoedas como alternativa à hegemonia do dólar.",
     "link": "https://br.cointelegraph.com/news/common-currency-cryptocurrencies-and-blockchain-ignored-in-brics-strategy-to-challenge-the-dollar"
   },
   {
-    "id": 16391,
+    "id": 61576,
     "title": " Pagamentos da Polymarket serão adiados, a menos que a Fox e a NBC concordem sobre o vencedor das eleições nos EUA ",
     "img": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=370/https://s3.cointelegraph.com/uploads/2024-11/0192fd2f-6542-7084-a75a-93ebcb071239",
     "desc": "Independentemente de quem vencer a eleição presidencial dos EUA em 2024, os usuários da Polymarket podem ter que esperar meses por seus pagamentos.",
     "link": "https://br.cointelegraph.com/news/polymarket-payouts-delayed-unless-fox-nbc-agree-us-election-winner"
   },
   {
-    "id": 73403,
+    "id": 78282,
     "title": " Bitcoin preparado para rompimento pós-eleitoral, mas transformar US$ 70 mil em suporte é o primeiro desafio ",
     "img": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=370/https://s3.cointelegraph.com/uploads/2024-11/0192fcdd-855d-7278-89a8-fb85273fb465",
     "desc": "Analistas afirmam que o Bitcoin está pronto para testar novas máximas após a conclusão das eleições nos EUA, mas US$ 70.000 precisam se manter como suporte primeiro.",
     "link": "https://br.cointelegraph.com/news/bitcoin-set-for-post-election-breakout-but-flipping-70-k-to-support-is-the-first-hurdle"
   },
   {
-    "id": 37083,
+    "id": 52267,
     "title": " Preço do Bitcoin sobe 3,7% em uma hora com o início da febre eleitoral nos EUA ",
     "img": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=370/https://s3.cointelegraph.com/uploads/2024-11/0192fd08-6f83-7e98-9e18-94e0fecd9a57",
     "desc": "A volatilidade do preço do BTC faz uma entrada rápida com o início da votação nas eleições presidenciais dos EUA — e analistas de Bitcoin têm uma sensação de déjà vu.",
     "link": "https://br.cointelegraph.com/news/bitcoin-price-jumps-3-7-us-election-begins"
   },
   {
-    "id": 1957,
+    "id": 84210,
     "title": " VanEck lista o PYTH ETN na Europa ",
     "img": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=370/https://s3.cointelegraph.com/storage/uploads/view/ad186395ad53c32c8d9393c009ee68f3.jpg",
     "desc": "O ETN será negociado na Euronext Amsterdã e na Euronext Paris, e estará disponível em 15 países.",
     "link": "https://br.cointelegraph.com/news/vaneck-lists-pyth-fund-europe"
   },
   {
-    "id": 572,
+    "id": 74512,
     "title": " Meta de preço do Bitcoin é US$ 120 mil, diz analista, enquanto métrica-chave se torna otimista ",
     "img": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=370/https://s3.cointelegraph.com/uploads/2024-11/0192fca0-1820-7748-83fe-88444247c533",
     "desc": "A mais recente análise de mercado sugere que, se a razão MVRV do Bitcoin continuar a aumentar, o preço do BTC pode estar na faixa de seis dígitos até 2025.",
     "link": "https://br.cointelegraph.com/news/bitcoin-price-target-120k-analyst-as-key-metric-flips-bullish"
   },
   {
-    "id": 62204,
+    "id": 36557,
     "title": " Valor justo do Bitcoin: BTC pode nunca cair abaixo de US$ 60 mil, afirma economista ",
     "img": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=370/https://s3.cointelegraph.com/uploads/2024-11/0192fc9c-5cb8-73c4-b578-8ad7d3fd2efc",
     "desc": "Outros indicadores importantes sugerem que o preço mínimo de longo prazo do Bitcoin está acima de US$ 40.000.",
     "link": "https://br.cointelegraph.com/news/bitcoin-fair-value-btc-never-fall-60k-economist"
+  },
+  {
+    "id": 28729,
+    "title": " Vitória de Trump confirmada? Jim Cramer diz que mercados preveem vitória de Harris ",
+    "img": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=370/https://s3.cointelegraph.com/uploads/2024-11/0192fbc6-ebe4-7bb1-a34b-8d049decfd3c",
+    "desc": "Alguns investidores de criptomoedas veem uma vitória de Trump devido ao famoso 'efeito Cramer inverso', após o apresentador de TV prever uma vitória de Harris.",
+    "link": "https://br.cointelegraph.com/news/trump-win-confirmed-jim-cramer-predict-harris-win"
+  },
+  {
+    "id": 48863,
+    "title": " Binance e CZ protocolam moção para rejeitar queixa alterada da SEC dos EUA ",
+    "img": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=370/https://s3.cointelegraph.com/uploads/2024-11/0192fb5f-facb-7a64-a806-0b0b4b82731c",
+    "desc": "Revendas de criptoativos no mercado secundário, muito tempo após sua distribuição inicial pelos desenvolvedores, não são transações de \"valores mobiliários\", argumentaram os advogados da Binance e de seu ex-CEO.",
+    "link": "https://br.cointelegraph.com/news/binance-cz-motion-dismiss-sec-amended-complaint"
+  },
+  {
+    "id": 77779,
+    "title": " Perspectivas do preço do Bitcoin dependem do resultado das eleições de 2024 nos EUA, apontam analistas ",
+    "img": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=370/https://s3.cointelegraph.com/uploads/2024-11/0192fb62-455c-744b-85ca-2455a56637e8",
+    "desc": "A volatilidade dos preços pós-eleitoral pode preparar o cenário para o rali do Bitcoin para uma alta recorde acima de US$ 73.800.",
+    "link": "https://br.cointelegraph.com/news/bitcoin-price-outlook-2024-us-election-analysts"
+  },
+  {
+    "id": 61714,
+    "title": " Mt. Gox movimenta US$ 2,2 bilhões em Bitcoin, aumentando a pressão de venda do BTC ",
+    "img": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=370/https://s3.cointelegraph.com/uploads/2024-11/0192fbe0-18d8-742e-99b9-7c8553226109",
+    "desc": "Mais de US$ 9,4 bilhões em Bitcoin foram devidos a cerca de 127.000 credores da Mt. Gox por mais de 10 anos.",
+    "link": "https://br.cointelegraph.com/news/mt-gox-transfers-2-2-b-bitcoin-825-m-btc"
+  },
+  {
+    "id": 29231,
+    "title": " Preço do Bitcoin precisa de 2 meses para retornar 'acima da tendência macro', aponta previsão ",
+    "img": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=370/https://s3.cointelegraph.com/uploads/2024-11/0192fb18-b647-724c-887a-8ec701ee2088",
+    "desc": "A força do preço do BTC estará de volta com uma vingança no início de 2025, prevê a análise, mas a eleição presidencial dos EUA incomodará os touros do Bitcoin até o Dia da Inauguração.",
+    "link": "https://br.cointelegraph.com/news/bitcoin-price-needs-2-months-return-above-macro-trend-forecast"
+  },
+  {
+    "id": 76947,
+    "title": " 'Calma antes da tempestade' — Volatilidade do Bitcoin para antes das eleições dos EUA ",
+    "img": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=370/https://s3.cointelegraph.com/uploads/2024-11/0192fa43-71e5-76ee-935a-6ddfed79145e",
+    "desc": "Depois de marcar uma alta de três meses na semana passada, a volatilidade do Bitcoin se estabilizou enquanto os traders aguardam o resultado da eleição dos EUA com a respiração suspensa.",
+    "link": "https://br.cointelegraph.com/news/calm-before-the-storm-bitcoin-volatility-stalls-as-markets-await-election-results-bitfinex"
+  },
+  {
+    "id": 18939,
+    "title": " ETFs de Bitcoin dos EUA fazem a segunda maior saída diária na véspera da eleição ",
+    "img": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=370/https://s3.cointelegraph.com/uploads/2024-11/0192fa42-8f08-7942-a433-e1b327ce50e6",
+    "desc": "Os 11 ETFs Bitcoin à vista dos EUA registraram uma saída líquida de US$ 541,1 milhões em 4 de novembro, seu segundo maior dia de saída da história.",
+    "link": "https://br.cointelegraph.com/news/us-bitcoin-etf-outflows-second-highest-amid-election"
+  },
+  {
+    "id": 77941,
+    "title": " Semler Scientific está focada na compra de Bitcoin, diz CEO ",
+    "img": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=370/https://s3.cointelegraph.com/uploads/2024-11/0192f969-f817-7c68-9797-b4e566bdff4a",
+    "desc": "A empresa de dispositivos médicos Semler Scientific gastou US$ 71 milhões para comprar 1.058 Bitcoins, adicionando outros 181 Bitcoins ao seu estoque no terceiro trimestre e no início de novembro.",
+    "link": "https://br.cointelegraph.com/news/semler-laser-focused-buying-bitcoin-increases-holdings"
+  },
+  {
+    "id": 30280,
+    "title": " Marathon e Riot registram a maior produção mensal de BTC desde o halving de abril ",
+    "img": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=370/https://s3.cointelegraph.com/uploads/2024-11/0192f96d-6e7b-765d-9c38-41605cd285fe",
+    "desc": "Ambas as empresas atribuíram parcialmente a produção expandida de Bitcoin ao aumento de suas taxas de hash energizadas em outubro.",
+    "link": "https://br.cointelegraph.com/news/marathonriot-highest-monthly-bitcoin-production-since-the-halving"
+  },
+  {
+    "id": 79306,
+    "title": " Microsoft arrisca sofrer ação judicial dos acionistas se ignorar o Bitcoin e os preços subirem, afirma NCPPR ",
+    "img": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=370/https://s3.cointelegraph.com/uploads/2024-11/0192f932-740b-702f-a006-ad09f8d0c932",
+    "desc": "A Microsoft tem um “dever fiduciário” de fazer o que é do interesse financeiro dos acionistas e menosprezar o Bitcoin pode ir contra esses interesses, disse um executivo do centro de pesquisa de políticas.",
+    "link": "https://br.cointelegraph.com/news/microsoft-could-face-shareholder-suit-bitcoin-proposal"
+  },
+  {
+    "id": 97428,
+    "title": " Esquema de pensão baseado no Reino Unido faz uma alocação de Bitcoin de 3% ",
+    "img": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=370/https://s3.cointelegraph.com/uploads/2024-11/0192f8ca-7f34-7fb9-95b1-27e0aea40136",
+    "desc": "Cartwright informou que um “esquema sem nome” baseado no Reino Unido fez uma alocação de 3% de Bitcoin em seu fundo de pensão.",
+    "link": "https://br.cointelegraph.com/news/uk-pension-scheme-bitcoin-investment"
+  },
+  {
+    "id": 95710,
+    "title": " 3 razões pelas quais o fundo do Bitcoin pode ter sido US$ 67,3 mil ",
+    "img": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=370/https://s3.cointelegraph.com/uploads/2024-11/0192f856-5554-7473-96c5-e983a3a2d368",
+    "desc": "Dados sugerem que os traders estão ignorando a atual correção de preço do Bitcoin e apostando em novas altas após o término das eleições nos EUA.",
+    "link": "https://br.cointelegraph.com/news/3-reasons-why-bitcoin-price-bottom-could-have-been-67-3-k"
+  },
+  {
+    "id": 4516,
+    "title": " Preço do Bitcoin hoje 05/11/2024: BTC tenta recuperação e pode voltar para US$ 70 mil ao longo do dia ",
+    "img": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=370/https://s3.cointelegraph.com/storage/uploads/view/c133a5eec5836e586031126fce1ace7d.jpg",
+    "desc": "Os touros estão tentando segurar a queda do Bitcoin, mas estão fragilizados com os ursos assumindo o comando, o que pode levar o BTC a testar o suporte em US$ 65 mil.",
+    "link": "https://br.cointelegraph.com/news/bitcoin-price-today-11-05-2024-btc-tries-to-recover-and-could-return-to-us-70-thousand-throughout-the-day"
+  },
+  {
+    "id": 25055,
+    "title": " Volatilidade pós-eleições nos EUA pode derrubar preço do Bitcoin e atrasar novas máximas históricas, afirma analista ",
+    "img": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=370/https://s3.cointelegraph.com/storage/uploads/view/f780dbdf6f99bde41ee462247c453551.jpg",
+    "desc": "Suportes em US$ 68.200 e US$ 65.000 precisam ser preservados para que o preço do Bitcoin mantenha tendência de alta e teste novamente sua máxima histórica após as eleições, afirma Diego Pohl, analista da Crypto Investidor.",
+    "link": "https://br.cointelegraph.com/news/post-election-volatility-in-the-us-could-knock-bitcoins-price-down-and-delay-new-all-time-highs-says-analyst"
+  },
+  {
+    "id": 90773,
+    "title": " 3 previsões ousadas para o preço do Bitcoin à medida que a eleição nos EUA se aproxima da reta final ",
+    "img": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=370/https://s3.cointelegraph.com/uploads/2024-11/0192f726-66b8-75bd-bf0c-f2f05a776367",
+    "desc": "Alguns analistas de Bitcoin veem o preço do BTC ultrapassando US$ 80.000 imediatamente se Donald Trump vencer Kamala Harris.",
+    "link": "https://br.cointelegraph.com/news/bitcoin-price-predictions-us-election-finishline"
+  },
+  {
+    "id": 44589,
+    "title": " Análise de preço em 04/11: SPX, DXY, BTC, ETH, BNB, SOL, XRP, DOGE, TON, ADA ",
+    "img": "https://images.cointelegraph.com/cdn-cgi/image/format=auto,onerror=redirect,quality=90,width=370/https://s3.cointelegraph.com/uploads/2024-11/0192f7f8-1cb9-7f48-9aa4-e3d6dfab6299",
+    "desc": "O preço do Bitcoin é negociado abaixo de US$ 70.000 à medida que os traders reduzem o risco antes da eleição. As altcoins seguirão essa tendência ou aproveitarão a consolidação do BTC?",
+    "link": "https://br.cointelegraph.com/news/price-analysis-11-4-spx-dxy-btc-eth-bnb-sol-xrp-doge-ton-ada"
   }
 ]

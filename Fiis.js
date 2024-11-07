@@ -4,7 +4,7 @@ import fs from 'node:fs';
 const url = 'https://fiis.com.br/noticias/page/2/';
 
 async function Fiis() {
-    const browser = await puppeteer.launch({ headless: true,args: [
+    const browser = await puppeteer.launch({ headless: false,args: [
         '--no-sandbox',
         '--disable-setuid-sandbox'
       ] });

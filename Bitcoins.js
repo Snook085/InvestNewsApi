@@ -4,7 +4,7 @@ import fs from 'node:fs';
 const url = 'https://br.cointelegraph.com/tags/bitcoin';
 
 async function main() {
-    const browser = await puppeteer.launch({ headless: true,args: [
+    const browser = await puppeteer.launch({ headless: false,args: [
         '--no-sandbox',
         '--disable-setuid-sandbox'
       ] });
@@ -30,7 +30,7 @@ async function main() {
             await page.evaluate(() => window.scrollBy(0, 500));
     
             
-            await waitForTimeout(500);
+            await waitForTimeout(1000);
     
             
             currentHeight = await page.evaluate(() => document.body.scrollHeight);
