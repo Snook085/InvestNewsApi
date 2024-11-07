@@ -1,6 +1,8 @@
 import express from 'express';
 import fs from 'node:fs/promises';
 import cors from 'cors';
+import path from 'path';
+import { fileURLToPath } from 'url';
 import main from '../Bitcoins.js';
 import Fiis from '../Fiis.js';
 
@@ -9,14 +11,21 @@ const noticiasBitcoins = [];
 const noticiasFiis = [];
 let intervalID;
 
+// Obtendo __dirname em um módulo ES6
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+
+// Caminhos absolutos para os arquivos JSON
+const bitcoinsPath = path.resolve(__dirname, '../Bitcoins.json');
+const fiisPath = path.resolve(__dirname, '../Fiis.json');
+
 // Função para buscar os dados a partir dos arquivos JSON
 async function puxaDados() {
     try {
-        const bitcoins = await fs.readFile('./Bitcoins.json', 'utf-8');
-        const Fiis = await fs.readFile('./Fiis.json','utf-8');
+        const bitcoins = await fs.readFile(bitcoinsPath, 'utf-8');
+        const fiis = await fs.readFile(fiisPath, 'utf-8');
         
         const jsonBtc = JSON.parse(bitcoins);
-        const jsonFiis = JSON.parse(Fiis);
+        const jsonFiis = JSON.parse(fiis);
         
         // Limpa as listas antes de preencher
         noticiasBitcoins.length = 0;
@@ -42,10 +51,10 @@ async function puxaDados() {
 // Função para iniciar o scraping em intervalos
 const startScraping = () => {
     if (!intervalID) {
-        intervalID = setInterval(() => {
+        intervalID = setInterval(async () => {
             try {
-                main();  // Função que coleta dados de Bitcoin
-                Fiis();  // Função que coleta dados de FIIs
+                await main();  // Função que coleta dados de Bitcoin
+                await Fiis();  // Função que coleta dados de FIIs
             } catch (err) {
                 console.log('Erro ao executar scraping:', err.message);
             }
@@ -80,8 +89,8 @@ server.get('/Fiis', (req, res) => {
     res.json(noticiasFiis);
 });
 
-// Inicia o servidor na porta 3000
-const PORT = 3000;
+// Inicia o servidor na porta fornecida pela Vercel ou na porta 3000 para teste local
+const PORT = process.env.PORT || 3001;
 server.listen(PORT, () => {
     console.log(`Servidor Iniciado na porta http://localhost:${PORT}/`);
 });
