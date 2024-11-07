@@ -3,13 +3,11 @@ import fs from 'node:fs/promises';
 import cors from 'cors';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import main from '../Bitcoins.js';
-import Fiis from '../Fiis.js';
 
+// Criação do servidor Express
 const server = express();
 const noticiasBitcoins = [];
 const noticiasFiis = [];
-let intervalID;
 
 // Obtendo __dirname em um módulo ES6
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -48,30 +46,15 @@ async function puxaDados() {
     }
 }
 
-// Função para iniciar o scraping em intervalos
-const startScraping = () => {
-    if (!intervalID) {
-        intervalID = setInterval(async () => {
-            try {
-                await main();  // Função que coleta dados de Bitcoin
-                await Fiis();  // Função que coleta dados de FIIs
-            } catch (err) {
-                console.log('Erro ao executar scraping:', err.message);
-            }
-        }, 600000);  // Intervalo de 10 minutos (600.000ms)
-    }
-};
-
-// Função para recarregar os dados periodicamente
+// Atualiza os dados periodicamente (por exemplo, a cada 3 segundos)
 const startDataUpdate = () => {
     setInterval(() => {
         puxaDados();
     }, 3000);  // Atualiza os dados a cada 3 segundos
 };
 
-// Inicia a coleta de dados e o scraping
+// Inicia a atualização de dados
 startDataUpdate();
-startScraping();
 
 // Inicia o servidor Express
 server.use(express.json());
@@ -95,7 +78,7 @@ server.listen(PORT, () => {
     console.log(`Servidor Iniciado na porta http://localhost:${PORT}/`);
 });
 
-// Garantir que o scraping não impede o servidor de iniciar
+// Carrega os dados inicialmente
 puxaDados().catch(err => {
     console.log('Erro ao carregar os dados inicialmente:', err);
 });
